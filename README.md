@@ -1,53 +1,89 @@
-# Nova - AI Chatbot
+# 🤖 Nova - AI Chatbot
 
-A Java-based rule-based AI chatbot developed as part of my CodeAlpha Java Programming Internship.
+A Java-based rule-driven AI chatbot developed as part of my **CodeAlpha Java Programming Internship – Task 3**.
 
-Nova uses NLP-style text processing and a keyword-based knowledge base to answer questions related to Java and Full Stack development.
+Nova is a **Full Stack Java Learning Assistant** that uses NLP-style text processing, keyword matching, and a predefined knowledge base to provide responses to programming and development-related questions.
 
-## Features
+## ✨ Features
 
+- Interactive console-based chatbot
 - NLP-style text processing
-- Rule-based responses
+- Keyword-based rule-driven responses
 - Java and OOP questions
-- Full Stack Java topics
+- Full Stack Java development topics
 - HTML, CSS and JavaScript
-- Spring Boot and REST API
-- SQL and database concepts
+- Spring and Spring Boot
+- REST API, JDBC, Hibernate and JPA
+- SQL, MySQL and PostgreSQL
 - Git and GitHub
+- Authentication, Authorization, JWT and MVC
 - Date and time responses
-- Interactive console interface
+- Greeting and general conversation handling
+- Fallback responses for unknown questions
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Java
 - Object-Oriented Programming (OOP)
 - HashMap
+- ArrayList
+- Java Date & Time API
+- NLP-style Text Processing
 - Git & GitHub
 
-## How to Run
+## 📂 Project Structure
 
-Compile the project:
+AI Chatbot/
+├── ChatMessage.java
+├── NLPProcessor.java
+├── KnowledgeBase.java
+├── Chatbot.java
+├── Main.java
+├── .gitignore
+└── README.md
 
-    javac *.java
+## 🧠 How It Works
 
-Run the chatbot:
+User Input → NLP Processing → Keyword Detection → Knowledge Base → Response
 
-    java Main
+Nova processes and normalizes the user's input, identifies relevant keywords, searches its predefined knowledge base, and generates a rule-based response.
 
-## Project Structure
+## ▶️ How to Run
 
-    ChatMessage.java
-    NLPProcessor.java
-    KnowledgeBase.java
-    Chatbot.java
-    Main.java
-    .gitignore
-    README.md
+1. Open the project folder in VS Code or any Java IDE.
 
-## Author
+2. Compile the project:
 
-**Radheshyam Wayal**
+javac *.java
 
-## Internship
+3. Run the chatbot:
 
-**CodeAlpha Java Programming Internship — Task 3**
+java Main
+
+## 💻 Example
+
+======================================
+        NOVA - JAVA AI CHATBOT
+======================================
+
+You: what is spring boot
+
+Nova: Spring Boot simplifies Spring application development by providing auto-configuration, starter dependencies, and an embedded server.
+
+You: who developed java
+
+Nova: Java was developed by James Gosling and his team at Sun Microsystems. It was first released in 1995.
+
+You: what is full stack java
+
+Nova: A Full Stack Java developer commonly works with Java and Spring Boot on the backend, HTML, CSS, JavaScript, databases, REST APIs, Git, and deployment tools.
+
+## 🎯 Internship
+
+CodeAlpha Java Programming Internship
+
+Task 3 – Artificial Intelligence Chatbot
+
+## 👨‍💻 Author
+
+Radheshyam Wayal
